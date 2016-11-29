@@ -17,6 +17,7 @@ fi
 
 if pgrep i3; then
     i3-msg restart
+    #echo "aaa"
 else
     ~/.fehbg
 fi
