@@ -1,5 +1,5 @@
 #!/bin/sh
-R=1
+R=0
 if [ $R -eq 1 ]; then
     redshift -o
     sed -i 's/^R=1$/R=0/' $0
